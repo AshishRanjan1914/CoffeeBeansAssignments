@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="CoffeeBeansAssignmentSuite" parallel="tests">
+<listeners>
+
+	<listener class-name="base.CustomListernsManager"></listener>
+
+</listeners>
+<parameter name="BrowserType" value="chrome" />
+
+  <test name="CoffeeBeansAssignmentTest ch">
+  <classes>
+  <class name=""></class>  
+  </classes>
+  
+  </test> <!-- CoffeeBeansAssignmentTest -->
+  
+  <test name="CoffeeBeansAssignmentTest x">
+  <classes>
+  <class name=""></class>  
+  </classes>
+  
+  </test> <!-- CoffeeBeansAssignmentTest -->
+  
+</suite> <!-- CoffeeBeansAssignmentSuite -->
